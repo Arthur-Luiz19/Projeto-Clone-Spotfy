@@ -47,14 +47,34 @@
         </nav>
     </header> <!--Fim header-->
 
-    <main>
+    
         <section id="home" class="d-flex"> <!-- Home -->
             <div class="container align-self-center">
                 <div class="row">
                     <div class="col-md-12 capa">
-                        <h1>Música para todos</h1>
-                        <a href="" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotfy free</a>
-                        <a href="" class="btn btn-custom btn-branco btn-lg">Obter o Spotfy Premium</a>
+                        <div id="carousel-slide" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <h1>Música para todos</h1>
+                                    <a href="" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotfy free</a>
+                                    <a href="" class="btn btn-custom btn-branco btn-lg">Obter o Spotfy Premium</a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <h1>As melhores</h1>
+                                    <a href="" class="btn btn-custom btn-branco btn-lg">Ouça agora mesmo!</a>
+                                </div>
+                            </div>
+
+                            <a href="#carousel-slide" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+
+                            <a href="#carousel-slide" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,7 +120,6 @@
                 </div>
             </div>
         </section> <!-- /Serviços -->
-    </main>
 
     <section id="recursos" class="caixa"> <!-- recursos -->
         <div class="container">
